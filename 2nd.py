@@ -162,7 +162,7 @@ p_word = tk.Entry(window)
 p_word.grid()
 
 
-log_in = tk.Button(window,text="log in")
+log_in = tk.Button(window,text="log in",bg="red")
 log_in.grid()
 
 
