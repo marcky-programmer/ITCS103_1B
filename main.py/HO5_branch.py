@@ -1,0 +1,8 @@
+file = open("Dream.txt","w")
+file.write("--- Inspiring Messages ---")
+file.write("Dream Big: I want to become a skilled programmer who builds systems that help people.\n")
+file.write("Stay Curious: I will keep learning even when things get difficult.\n")
+file.write("Embrace Failure : Every error is a step closer to succes.\n")
+file.write("Create Impact : I want my code to solve real_world problems.\n")
+file.write("Believe in Yourself : I am capable of learning and growing.Someday we will be free.\n")
+file.close()

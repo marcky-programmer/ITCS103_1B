@@ -147,23 +147,23 @@ window.geometry("500x500")
 window.configure(bg='#708238',cursor='arrow')
 
 use_form = tk.Label(window, text="USe form")
-use_form.grid()
+use_form.pack()
 
 u_name = tk.Label(window,text="Username:")
-u_name.grid()
+u_name.pack()
 
 u_name = tk.Entry(window)
-u_name.grid()
+u_name.pack()
 
 p_word = tk.Label(window,text="Password:")
-p_word.grid()
+p_word.pack()
 
 p_word = tk.Entry(window)
-p_word.grid()
+p_word.pack()
 
 
 log_in = tk.Button(window,text="log in",bg="red")
-log_in.grid()
+log_in.pack()
 
 
 window.mainloop()
