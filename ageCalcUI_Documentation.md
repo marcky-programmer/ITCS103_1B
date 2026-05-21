@@ -213,7 +213,7 @@ def update():
     sheet = workbook.active
     
     # Find and update matching record
-    for rows in sheet.iter_rows(main_row=2):
+    for rows in sheet.iter_rows(min_row=2):
         if str(record_id) == str(rows[0].value):  # If record ID matches
             rows[1].value = last        # Update last name
             rows[2].value = first       # Update first name
